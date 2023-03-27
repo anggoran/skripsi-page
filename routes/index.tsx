@@ -1,5 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
-import Avatar from "../components/avatar.tsx";
+import Avatar from "../components/Avatar.tsx";
 import Footer from "../components/Footer.tsx";
 import Header from "../components/Header.tsx";
 import SurveyButton from "../islands/SurveyButton.tsx";
