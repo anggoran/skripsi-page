@@ -9,7 +9,7 @@ export default function AnggoranPage() {
       <Head>
         <title>Skripsi Anggoran</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta http-equiv="refresh" content={"2; " + "url=" + formURL} />
+        <meta http-equiv="refresh" content={"1; " + "url=" + formURL} />
         <meta property="og:title" content="Survey Skripsi Anggoran" />
         <meta
           property="og:description"
