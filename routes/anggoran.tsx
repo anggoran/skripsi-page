@@ -14,11 +14,11 @@ export default function AnggoranPage() {
           property="og:description"
           content="Survey Skripsi terkait Penggunaan ICT, Inovasi Produk dan Proses Produksi, serta Kinerja Perusahaan"
         />
-        <meta property="og:image" content="https://skripsi.page/avatar.svg" />
+        <meta property="og:image" content="https://skripsi.page/komak.jpg" />
       </Head>
       <body className="bg-gray-50 min-h-screen flex items-center justify-center">
         <div className="flex flex-col animate-pulse">
-          <p className="font-semibold">redirecting to the form</p>
+          <p className="text-gray-500 font-semibold">redirecting to the form</p>
         </div>
       </body>
     </>

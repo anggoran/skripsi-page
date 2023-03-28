@@ -5,6 +5,7 @@ import Header from "../components/Header.tsx";
 import SurveyButton from "../islands/SurveyButton.tsx";
 import Body from "../components/Body.tsx";
 import Title from "../components/Title.tsx";
+import References from "../components/References.tsx";
 
 export default function HomePage() {
   return (
@@ -21,14 +22,14 @@ export default function HomePage() {
           property="og:description"
           content="Jembatan yang tak kunjung dibangun di perusahaan kita"
         />
-        <meta property="og:image" content="https://skripsi.page/avatar.svg" />
+        <meta property="og:image" content="https://skripsi.page/komak.jpg" />
       </Head>
       <Body>
         <main className="mx-auto max-w-prose px-4">
           <Title />
           <Avatar />
-          <div class="space-y-4 py-4">
-            <p className="text-justify">
+          <div class="space-y-4 py-4 text-gray-700 font-light text-justify">
+            <p>
               Istilah big data mungkin sudah tidak asing di telinga kita. Big
               data merupakan serangkaian data yang beredar dalam jumlah besar
               (Volume), berkembang pesat (Velocity), serta hadir dalam berbagai
@@ -39,7 +40,7 @@ export default function HomePage() {
               diproses), serta visualisasi dan penggunaan data (mengubah data
               menjadi actionable insights melalui self-service analytics).
             </p>
-            <p className="text-justify">
+            <p>
               Sebelum masuk ke manfaat dari big data, ada baiknya lebih dulu
               membahas tentang self-service analytics. Ini adalah kondisi di
               mana siapa saja dapat mengakses dan memahami data tanpa bantuan
@@ -47,7 +48,7 @@ export default function HomePage() {
               membuat perusahaan menjadi lebih reaktif dalam mengambil keputusan
               berbasis data, tanpa perlu tunggu menunggu.
             </p>
-            <p className="text-justify">
+            <p>
               Lantas sekarang apa faedah dari normalisasi penggunaan big data di
               dalam perusahaan? Menurut McKinsey, seiring bertambahnya
               pengalaman manusia, maka semakin rentan mereka terkena bias yang
@@ -57,7 +58,7 @@ export default function HomePage() {
               hadir sebagai fakta yang dapat membantu perusahaan dalam menjawab
               masalah bisnis.
             </p>
-            <p className="text-justify">
+            <p>
               Pertanyaan klimaks, <b>Apa Benar Kita Sudah Pakai Big Data?</b>{" "}
               Menurut buku "Creating a Data-Driven Organization" karya Carl
               Anderson, penggunaan data bukan hanya sekadar melaporkan apa yang
@@ -66,7 +67,7 @@ export default function HomePage() {
               berkepanjangan, bahwasanya data berperan penting di dalam inovasi
               produk atau proses produksi.
             </p>
-            <p className="text-justify">
+            <p>
               Berbicara tentang penggunaan big data, sebaiknya tidak
               disalah-kaprahkan bahwa pengambilan keputusan sepenuhnya harus
               didasari oleh data. Menurut Farrell di dalam Harvard Business
@@ -76,13 +77,14 @@ export default function HomePage() {
               Namun, setidaknya kita tidak asal-asalan bergerak tanpa diiringi
               oleh data.
             </p>
-            <p className="text-justify">
+            <p>
               Sekian artikel ini saya buat, terima kasih telah membaca. Apabila
               menyukai artikel ini, Anda dapat klik tombol di bawah untuk ikut
               serta dalam <b>survey skripsi saya</b>.
             </p>
           </div>
           <SurveyButton />
+          <References />
         </main>
       </Body>
     </>
