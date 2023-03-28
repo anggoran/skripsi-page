@@ -1,7 +1,5 @@
 import { Head } from "$fresh/runtime.ts";
 import Avatar from "../components/Avatar.tsx";
-import Footer from "../components/Footer.tsx";
-import Header from "../components/Header.tsx";
 import SurveyButton from "../islands/SurveyButton.tsx";
 import Body from "../components/Body.tsx";
 import Title from "../components/Title.tsx";
@@ -28,7 +26,7 @@ export default function HomePage() {
         <main className="mx-auto max-w-prose px-4">
           <Title />
           <Avatar />
-          <div class="space-y-4 py-4 text-gray-700 font-light text-justify">
+          <div class="space-y-4 py-4 text-gray-900 font-light text-justify">
             <p>
               Istilah big data mungkin sudah tidak asing di telinga kita. Big
               data merupakan serangkaian data yang beredar dalam jumlah besar

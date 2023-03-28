@@ -1,4 +1,5 @@
 import { Head } from "https://deno.land/x/fresh@1.1.4/runtime.ts";
+
 export default function AnggoranPage() {
   const formURL =
     "https://docs.google.com/forms/d/e/1FAIpQLSeu4l0Mubq1LktqSKXHuxRyqkMRI3K8LAmQENcKryRUO8QoOg/viewform?usp=sf_link";
