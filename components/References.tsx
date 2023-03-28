@@ -13,7 +13,9 @@ export default function References() {
       <ul className="space-y-2 text-justify text-xs text-gray-500">
         {references.map((r) => (
           <li className="hover:text-blue-500">
-            <a href={r}>{r}</a>
+            <a href={r} target="_blank" rel="noopener noreferrer">
+              {r}
+            </a>
           </li>
         ))}
       </ul>
