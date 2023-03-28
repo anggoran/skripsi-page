@@ -11,50 +11,75 @@ export default function HomePage() {
     <>
       <Head>
         <title>Skripsi Anggoran</title>
-        {/* <meta name="description" content="(Ceritanya Judul)" /> */}
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:type" content="article" />
+        <meta
+          property="og:title"
+          content="Apa Benar Kita Sudah Pakai Big Data?"
+        />
+        <meta
+          property="og:description"
+          content="Jembatan yang tak kunjung dibangun di perusahaan kita"
+        />
+        <meta property="og:image" content="https://skripsi.page/avatar.svg" />
       </Head>
       <Body>
-        <main className="mx-auto max-w-prose">
+        <main className="mx-auto max-w-prose px-4">
           <Title />
           <Avatar />
           <div class="space-y-4 py-4">
             <p className="text-justify">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-              odio urna. Fusce at lacus gravida, volutpat sapien vitae, molestie
-              nibh. Praesent vitae neque sed neque rutrum tincidunt at ac metus.
-              Nam volutpat nunc sit amet lacinia semper. Suspendisse faucibus,
-              leo sit amet posuere sollicitudin, enim urna hendrerit nunc, non
-              rhoncus massa nibh eget sapien.
+              Istilah big data mungkin sudah tidak asing di telinga kita. Big
+              data merupakan serangkaian data yang beredar dalam jumlah besar
+              (Volume), berkembang pesat (Velocity), serta hadir dalam berbagai
+              format (Variety). Menurut Amazon Web Services atau AWS, big data
+              setidaknya dikelola melalui empat proses; yakni pengumpulan data
+              (membuat aliran data), penyimpanan data (menyimpan raw data),
+              pemrosesan dan analisis data (menganalisis data yang telah
+              diproses), serta visualisasi dan penggunaan data (mengubah data
+              menjadi actionable insights melalui self-service analytics).
             </p>
             <p className="text-justify">
-              Nullam imperdiet fringilla dui at efficitur. Fusce molestie elit
-              nec ultricies sagittis. Duis scelerisque, magna eu vestibulum
-              vehicula, augue quam consequat ante, vitae blandit eros massa in
-              tortor. Aliquam erat volutpat. Praesent tincidunt dolor nec sapien
-              efficitur, a lacinia odio eleifend. Donec quis magna ultrices,
-              efficitur quam vel, rhoncus massa.
+              Sebelum masuk ke manfaat dari big data, ada baiknya lebih dulu
+              membahas tentang self-service analytics. Ini adalah kondisi di
+              mana siapa saja dapat mengakses dan memahami data tanpa bantuan
+              tim engineering, melalui SaaS seperti Mixpanel. Hal ini dapat
+              membuat perusahaan menjadi lebih reaktif dalam mengambil keputusan
+              berbasis data, tanpa perlu tunggu menunggu.
             </p>
             <p className="text-justify">
-              Vivamus vel sagittis velit. Morbi luctus libero eget felis
-              sagittis tincidunt. Sed id tortor ipsum. Nulla facilisi. Nam
-              feugiat odio vel vestibulum eleifend. Aliquam ullamcorper risus a
-              erat convallis suscipit. Maecenas vel urna eget sapien ultrices
-              sodales sed nec nibh.
+              Lantas sekarang apa faedah dari normalisasi penggunaan big data di
+              dalam perusahaan? Menurut McKinsey, seiring bertambahnya
+              pengalaman manusia, maka semakin rentan mereka terkena bias yang
+              mempercepat penyimpulan masalah. Tidak menutup kemungkinan bahwa
+              semangat mengusulkan beribu solusi muncul, sedangkan segelintir
+              masalah masih menjadi tanda tanya. Dengan ini, big data dapat
+              hadir sebagai fakta yang dapat membantu perusahaan dalam menjawab
+              masalah bisnis.
             </p>
             <p className="text-justify">
-              In hac habitasse platea dictumst. Vestibulum eget arcu non mauris
-              ullamcorper convallis. Proin sed aliquam elit. Sed elementum ac
-              enim a luctus. Nullam ac ante at ex congue scelerisque. Fusce ac
-              lectus nunc. Suspendisse viverra dignissim purus in laoreet.
+              Pertanyaan klimaks, <b>Apa Benar Kita Sudah Pakai Big Data?</b>{" "}
+              Menurut buku "Creating a Data-Driven Organization" karya Carl
+              Anderson, penggunaan data bukan hanya sekadar melaporkan apa yang
+              terjadi, tetapi juga berinovasi berdasarkan apa yang terjadi. Hal
+              ini pun dapat dijadikan oleh perusahaan sebagai mindset
+              berkepanjangan, bahwasanya data berperan penting di dalam inovasi
+              produk atau proses produksi.
             </p>
             <p className="text-justify">
-              Etiam maximus turpis eget enim ultrices, id tristique quam congue.
-              Maecenas sed mauris ut leo fringilla dignissim. Aenean hendrerit
-              quam ut neque tristique, id bibendum quam congue. Nulla convallis
-              risus et risus cursus malesuada. Vestibulum eget mi euismod,
-              tristique velit nec, dapibus tortor. Nam laoreet malesuada arcu ac
-              pretium.
+              Berbicara tentang penggunaan big data, sebaiknya tidak
+              disalah-kaprahkan bahwa pengambilan keputusan sepenuhnya harus
+              didasari oleh data. Menurut Farrell di dalam Harvard Business
+              Publishing, intuisi justru dapat memudahkan pengambilan keputusan
+              berbasis data. Interpretasi terhadap apa yang tidak terjadi di
+              lapangan pada akhirnya berada di tangan kita dan rekan satu tim.
+              Namun, setidaknya kita tidak asal-asalan bergerak tanpa diiringi
+              oleh data.
+            </p>
+            <p className="text-justify">
+              Sekian artikel ini saya buat, terima kasih telah membaca. Apabila
+              menyukai artikel ini, Anda dapat klik tombol di bawah untuk ikut
+              serta dalam <b>survey skripsi saya</b>.
             </p>
           </div>
           <SurveyButton />
