@@ -70,10 +70,10 @@ export default function HomePage() {
               disalah-kaprahkan bahwa pengambilan keputusan sepenuhnya harus
               didasari oleh data. Menurut Farrell di dalam Harvard Business
               Publishing, intuisi justru dapat memudahkan pengambilan keputusan
-              berbasis data. Interpretasi terhadap apa yang tidak terjadi di
-              lapangan pada akhirnya berada di tangan kita dan rekan satu tim.
-              Namun, setidaknya kita tidak asal-asalan bergerak tanpa diiringi
-              oleh data.
+              berbasis data. Interpretasi terhadap apa yang terjadi di lapangan
+              pada akhirnya berada di tangan kita dan rekan satu tim. Namun,
+              setidaknya kita tidak asal-asalan bergerak tanpa diiringi oleh
+              data.
             </p>
             <p>
               Sekian artikel ini saya buat, terima kasih telah membaca. Apabila
